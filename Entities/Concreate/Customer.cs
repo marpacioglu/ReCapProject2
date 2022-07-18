@@ -5,13 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Entities.Concreate
 {
-    public class Brand :IEntity
-    { 
+    public class Customer:IEntity
+    {
         public int Id { get; set; }
+        public string CompanyName { get; set; }
 
-        public string BrandName { get; set; }
     }
 }

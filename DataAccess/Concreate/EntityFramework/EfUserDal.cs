@@ -4,14 +4,12 @@ using Entities.Concreate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccess.Concreate.EntityFramework
 {
-    public class EfColorDal : EfEntityRepositoryBase<Color, RentACarContext>,IColorDal
+    public class EfUserDal: EfEntityRepositoryBase<User, RentACarContext>, IUserDal
     {
-       
     }
 }
